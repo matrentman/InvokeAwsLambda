@@ -1,4 +1,4 @@
-package com.emptylogic.lambda;
+package com.emptylogic;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

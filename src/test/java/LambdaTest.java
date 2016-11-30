@@ -8,8 +8,8 @@ import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.lambda.AWSLambdaClient;
+import com.emptylogic.Lambda;
 import com.emptylogic.dto.HelloRequest;
-import com.emptylogic.lambda.Lambda;
 
 public class LambdaTest 
 {

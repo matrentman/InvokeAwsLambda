@@ -11,7 +11,6 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.lambda.AWSLambdaClient;
 import com.emptylogic.dto.HelloRequest;
 import com.emptylogic.dto.HelloResponse;
-import com.emptylogic.lambda.Lambda;
  
 public class Main
 {
