@@ -15,18 +15,22 @@ import com.emptylogic.lambda.Lambda;
  
 public class Main
 {
-	private static final Log logger = LogFactory.getLog(Main.class);
+    private static final Log logger = LogFactory.getLog(Main.class);
     private static final String regionName = "us-east-2";
     private static final String functionName = "HelloFunction";
     private static final HelloRequest payload = new HelloRequest("World"); 
 
-    public static void main(String... args) {
+    public static void main(String... args) 
+    {
     	logger.info("Entered main...");
 
         AWSCredentials credentials = null;
-        try {
+        try 
+        {
             credentials = new ProfileCredentialsProvider("default").getCredentials();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) 
+        {
             throw new AmazonClientException(
                     "Cannot load the credentials from the credential profiles file. " +
                     "Please make sure that your credentials file is at the correct " +

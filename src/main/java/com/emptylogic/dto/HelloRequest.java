@@ -1,24 +1,28 @@
 package com.emptylogic.dto;
 
-public class HelloRequest {
-	private String name;
+public class HelloRequest 
+{
+    private String name;
 
-    public HelloRequest(String name) {
+    public HelloRequest(String name) 
+    {
         this.name = name;
     }
 
-    public HelloRequest() {
-    }
+    public HelloRequest() {  }
 
-    public String getName() {
+    public String getName() 
+    {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) 
+    {
         this.name = name;
     }
     
-    public String toString() {
+    public String toString() 
+    {
     	return "{\"name\": \"World\"}";
     }
 }
